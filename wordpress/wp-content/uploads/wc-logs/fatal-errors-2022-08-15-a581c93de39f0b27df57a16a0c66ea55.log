@@ -1,0 +1,8 @@
+2022-08-15T15:14:24+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\laragon\www\Lepasfait\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:683
+Stack trace:
+#0 C:\laragon\www\Lepasfait\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(597): ActionScheduler_DBStore->claim_actions(0, 25, NULL, Array, '')
+#1 C:\laragon\www\Lepasfait\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\laragon\www\Lepasfait\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\laragon\www\Lepasfait\wordpress\wp-includes\class-wp-hook.php(307): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\laragon\www\Lepasfait\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_f in C:\laragon\www\Lepasfait\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 683
+

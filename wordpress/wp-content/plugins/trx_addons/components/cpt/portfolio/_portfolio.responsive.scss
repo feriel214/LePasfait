@@ -1,0 +1,65 @@
+@mixin sc_portfolio--md() {
+    /* Portfolio */
+	[class*="portfolio_page_gallery_type_masonry_"] {
+		margin-right:-$md_grid_gap;
+	}
+	[class*="portfolio_page_gallery_type_masonry_"] .portfolio_page_gallery_item {
+		padding:0 $md_grid_gap $md_grid_gap 0;
+	}
+	.portfolio_page_gallery_type_masonry_3 .portfolio_page_gallery_item,
+	.portfolio_page_gallery_type_masonry_4 .portfolio_page_gallery_item {
+		width: 50%;
+	}
+	.portfolio_page_gallery_type_stream .portfolio_page_gallery_item+.portfolio_page_gallery_item {
+		margin-top: $md_grid_gap;
+	}
+}
+
+@mixin sc_portfolio--sm() {
+    /* Portfolio */
+	.portfolio_page_details_left .portfolio_page_details_wrap {
+		padding-right: 0;
+		padding-bottom: 2em;
+	}
+	.portfolio_page_details_right .portfolio_page_details_wrap {
+		padding-left: 0;
+		padding-top: 2em;
+	}
+	.portfolio_page_details_left .portfolio_page_details_wrap,
+	.portfolio_page_details_right .portfolio_page_details_wrap {
+		display: block;
+		width: 100%;	
+	}
+	.portfolio_page_details_left .portfolio_page_content_wrap,
+	.portfolio_page_details_right .portfolio_page_content_wrap {
+		display: block;
+		width: 100%;
+	}
+	[class*="portfolio_page_gallery_type_masonry_"] {
+		margin-right:-$sm_grid_gap;
+	}
+	[class*="portfolio_page_gallery_type_masonry_"] .portfolio_page_gallery_item {
+		padding:0 $sm_grid_gap $sm_grid_gap 0;
+	}
+	.portfolio_page_gallery_type_stream .portfolio_page_gallery_item+.portfolio_page_gallery_item {
+		margin-top: $sm_grid_gap;
+	}
+}
+
+@mixin sc_portfolio--xs() {
+    /* Portfolio */
+	[class*="portfolio_page_gallery_type_masonry_"] {
+		margin-right:0;
+	}
+	[class*="portfolio_page_gallery_type_masonry_"] .portfolio_page_gallery_item {
+		padding:0 0 $xs_grid_gap 0;
+	}
+	.portfolio_page_gallery_type_masonry_2 .portfolio_page_gallery_item,
+	.portfolio_page_gallery_type_masonry_3 .portfolio_page_gallery_item,
+	.portfolio_page_gallery_type_masonry_4 .portfolio_page_gallery_item {
+		width: 100%;
+	}
+	.portfolio_page_gallery_type_stream .portfolio_page_gallery_item+.portfolio_page_gallery_item {
+		margin-top: $xs_grid_gap;
+	}
+}

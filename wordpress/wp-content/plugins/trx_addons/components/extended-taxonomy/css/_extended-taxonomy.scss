@@ -1,0 +1,23 @@
+/* Extended Taxonomy component */
+
+.trx_addons_extended_taxonomy_bg {
+	padding: .15em .7em;
+	border-radius: .5em;
+	overflow: hidden;
+}
+
+.trx_addons_extended_taxonomy .trx_addons_extended_taxonomy_icon {
+	display: inline-block;
+	vertical-align: baseline;
+	line-height: inherit;
+	margin-right: .5em;
+	color: inherit !important;
+}
+
+.trx_addons_extended_taxonomy .trx_addons_extended_taxonomy_img {
+	max-height: 1.15em;
+	width: auto !important;
+	margin-right: .3em;
+	display: inline-block !important;
+	vertical-align: middle;
+}

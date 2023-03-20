@@ -1,0 +1,34 @@
+@-webkit-keyframes smile-fall {
+
+	from {
+		-webkit-transform: translateZ(600px) rotateX(20deg);
+		opacity: 0;
+	}
+
+	60% {
+		-webkit-transform: translateZ(0) rotateX(0deg);
+		opacity: 1;
+	}
+}
+
+@keyframes smile-fall {
+
+	from {
+		transform: translateZ(600px) rotateX(20deg);
+		opacity: 0;
+	}
+
+	60% {
+		transform: translateZ(0) rotateX(0deg);
+		opacity: 1;
+	}
+}
+
+.smile-fall {
+	-webkit-animation-name: smile-fall;
+	animation-name: smile-fall;
+	-webkit-perspective: 1300px;
+	perspective: 1300px;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}

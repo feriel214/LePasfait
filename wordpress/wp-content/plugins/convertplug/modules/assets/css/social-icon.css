@@ -1,0 +1,12 @@
+/*------------------------------------------------*/
+@font-face {
+	font-family: cp-social;
+	src: url(../fonts/cp-social.eot);
+	src:
+		url(../fonts/cp-social.eot?#iefix) format("embedded-opentype"),
+		url(../fonts/cp-social.ttf) format("truetype"),
+		url(../fonts/cp-social.woff) format("woff"),
+		url(../fonts/cp-social.svg#cp-social) format("svg");
+	font-weight: 400;
+	font-style: normal;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "gutenberg-editor-title",
+  "version": "1.0.0",
+  "description": "",
+  "main": "title.gutenberg-editor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "webpack --entry=./title.gutenberg-editor.js --output=./dist/bundle.js --mode=development --watch",
+    "dev": "webpack --entry=./title.gutenberg-editor.js --output=./dist/bundle.js --mode=development",
+    "prod": "webpack --entry=./title.gutenberg-editor.js --output=./dist/bundle.js --mode=production"
+  },
+  "keywords": [
+    "title",
+    "gutenberg",
+    "trx_addons"
+  ],
+  "author": "ThemeREX",
+  "license": "ISC"
+}

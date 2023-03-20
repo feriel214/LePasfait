@@ -1,0 +1,32 @@
+@-webkit-keyframes smile-flash {
+
+	from,
+	50%,
+	to {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+
+@keyframes smile-flash {
+
+	from,
+	50%,
+	to {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+
+.smile-flash {
+	-webkit-animation-name: smile-flash;
+	animation-name: smile-flash;
+}

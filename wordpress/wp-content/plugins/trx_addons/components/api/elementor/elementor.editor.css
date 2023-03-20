@@ -1,0 +1,51 @@
+/* Styles for controls in the Elementor Editor
+------------------------------------------------ */
+
+/* Make each panel category as accordion */
+#elementor-panel-categories .elementor-panel-category-title {
+	margin:  0 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor: pointer;
+	border-top: 1px solid #d7dadd;
+	-webkit-transition: background-color 0.3s ease-out;
+	    -ms-transition: background-color 0.3s ease-out;
+	        transition: background-color 0.3s ease-out;
+}
+#elementor-panel-categories .elementor-panel-category-title:before {
+	right: 8px;
+}
+#elementor-panel-categories .elementor-panel-category-title:hover {
+	color: #000;
+	background-color: #abbccc;
+}
+#elementor-panel-categories .elementor-panel-category.elementor-active .elementor-panel-category-title {
+	background-color: #ddbbbb;
+	color: #b7084e;
+}
+
+/* Controls */
+.elementor-control .elementor-control-field {
+	flex-wrap: wrap;
+}
+
+/* Hide native Elementor's responsive params */
+body.replace_hide_on_xxx .elementor-control-hide_desktop,
+body.replace_hide_on_xxx .elementor-control-hide_tablet,
+body.replace_hide_on_xxx .elementor-control-hide_mobile {
+	display: none !important;
+}
+
+/* Icons selector */
+.elementor-control .trx_addons_icon_selector + .trx_addons_list_icons {
+	left: 0 !important;
+}
+.elementor-control .trx_addons_icon_selector + .trx_addons_list_icons span {
+	width: 2.2em;
+}
+
+
+/* Date_Time Control */
+.datepicker_header a.icon-home:before {
+	display: none;
+}

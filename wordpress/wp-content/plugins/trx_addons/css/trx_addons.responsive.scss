@@ -1,0 +1,65 @@
+/* ATTENTION! This file was generated automatically! Don't change it!!!
+----------------------------------------------------------------------- */
+@import "../css/_mixins.scss";
+@import "../css/_trx_addons.vars.scss";
+@import "../css/_trx_addons.responsive.scss";
+@import "../components/shortcodes/_shortcodes.responsive.scss";
+
+
+/* SASS Suffix: --tablet */
+@media (min-width: 768px) and (max-width: 1279px) {
+	@include sc--tablet();
+}
+
+
+/* SASS Suffix: --mobile */
+@media (max-width: 767px) {
+	@include sc--mobile();
+}
+
+
+/* SASS Suffix: --xl */
+@media (max-width: 1439px) {
+	@include trx_addons--xl();
+	@include sc--xl();
+}
+
+
+/* SASS Suffix: --lg */
+@media (max-width: 1279px) {
+	@include trx_addons--lg();
+	@include sc--lg();
+}
+
+
+/* SASS Suffix: --md */
+@media (max-width: 1023px) {
+	@include trx_addons--md();
+	@include sc--md();
+}
+
+
+/* SASS Suffix: --sm */
+@media (max-width: 767px) {
+	@include trx_addons--sm();
+	@include sc--sm();
+}
+
+
+/* SASS Suffix: --wp_fix */
+@media (min-width: 601px) and (max-width: 782px) {
+	@include trx_addons--wp_fix();
+}
+
+
+/* SASS Suffix: --sm_wp */
+@media (max-width: 600px) {
+	@include trx_addons--sm_wp();
+}
+
+
+/* SASS Suffix: --xs */
+@media (max-width: 479px) {
+	@include trx_addons--xs();
+	@include sc--xs();
+}

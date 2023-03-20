@@ -1,0 +1,186 @@
+@mixin sc--tablet() {
+    /* Shortcodes - Common styles */
+	.sc_push_hide_on_tablet {
+		margin-top: 0 !important;
+	}
+	.sc_pull_hide_on_tablet {
+		margin-bottom: 0 !important;
+	}
+}
+@mixin sc--mobile() {
+    /* Shortcodes - Common styles */
+	.sc_push_hide_on_mobile {
+		margin-top: 0 !important;
+	}
+	.sc_pull_hide_on_mobile {
+		margin-bottom: 0 !important;
+	}
+}
+
+@mixin sc--xl() {
+    /* Shortcodes - Common styles */
+	.sc_item_subtitle + .sc_item_title {
+		margin-top: 0.4em;
+	}
+	.sc_item_title + .sc_item_descr, .sc_item_subtitle + .sc_item_descr,
+	.sc_item_title + .sc_item_slider, .sc_item_subtitle + .sc_item_slider, .sc_item_descr + .sc_item_slider,
+	.sc_item_title + .sc_item_columns, .sc_item_subtitle + .sc_item_columns, .sc_item_descr + .sc_item_columns,
+	.sc_item_title + .sc_item_content, .sc_item_subtitle + .sc_item_content, .sc_item_descr + .sc_item_content {
+		margin-top: 2em;
+	}
+	.sc_item_title + .sc_item_button, .sc_item_title + .sc_item_button_image,
+	.sc_item_subtitle + .sc_item_button, .sc_item_subtitle + .sc_item_button_image,
+	.sc_item_descr + .sc_item_button, .sc_item_descr + .sc_item_button_image,
+	.sc_item_content + .sc_item_button, .sc_item_content + .sc_item_button_image,
+	.sc_item_slider + .sc_item_button, .sc_item_slider + .sc_item_button_image,
+	.sc_item_columns + .sc_item_button, .sc_item_columns + .sc_item_button_image {
+		margin-top: 2em;
+	}
+}
+
+@mixin sc--lg() {
+	/* Shortcodes - Common styles */
+	.sc_push_x_tiny {			margin-left: 1em !important; }
+	.sc_push_x_tiny_negative {	margin-left: -1em !important; }
+	.sc_push_x_small {			margin-left: 2em !important; }
+	.sc_push_x_small_negative {	margin-left: -2em !important; }
+	.sc_push_x_medium {			margin-left: 3em !important; }
+	.sc_push_x_medium_negative {margin-left: -3em !important; }
+	.sc_push_x_large {			margin-left: 4em !important; }
+	.sc_push_x_large_negative {	margin-left: -4em !important; }
+
+	.sc_push_tiny,
+	.sc_push_y_tiny {			margin-top:  1em !important; }
+	.sc_push_tiny_negative,
+	.sc_push_y_tiny_negative {	margin-top: -1em !important; }
+	.sc_push_small,
+	.sc_push_y_small {			margin-top:  2em !important; }
+	.sc_push_small_negative,
+	.sc_push_y_small_negative {	margin-top: -2em !important; }
+	.sc_push_medium,
+	.sc_push_y_medium {			margin-top:  3em !important; }
+	.sc_push_medium_negative,
+	.sc_push_y_medium_negative {margin-top: -3em !important; }
+	.sc_push_large,
+	.sc_push_y_large {			margin-top:  4em !important; }
+	.sc_push_large_negative,
+	.sc_push_y_large_negative {	margin-top: -4em !important; }
+
+	.sc_pull_x_tiny {			margin-right: 1em !important; }
+	.sc_pull_x_tiny_negative {	margin-right: -1em !important; }
+	.sc_pull_x_small {			margin-right: 2em !important; }
+	.sc_pull_x_small_negative {	margin-right: -2em !important; }
+	.sc_pull_x_medium {			margin-right: 3em !important; }
+	.sc_pull_x_medium_negative {margin-right: -3em !important; }
+	.sc_pull_x_large {			margin-right: 4em !important; }
+	.sc_pull_x_large_negative {	margin-right: -4em !important; }
+
+	.sc_pull_tiny,
+	.sc_pull_y_tiny {			margin-bottom:  1em !important; }
+	.sc_pull_tiny_negative,
+	.sc_pull_y_tiny_negative {	margin-bottom: -1em !important; }
+	.sc_pull_small,
+	.sc_pull_y_small {			margin-bottom:  2em !important; }
+	.sc_pull_small_negative,
+	.sc_pull_y_small_negative {	margin-bottom: -2em !important; }
+	.sc_pull_medium,
+	.sc_pull_y_medium {			margin-bottom:  3em !important; }
+	.sc_pull_medium_negative,
+	.sc_pull_y_medium_negative {margin-bottom: -3em !important; }
+	.sc_pull_large,
+	.sc_pull_y_large {			margin-bottom:  4em !important; }
+	.sc_pull_large_negative,
+	.sc_pull_y_large_negative {	margin-bottom: -4em !important; }
+
+	.sc_shift_x_tiny {				left:  1em !important; }
+	.sc_shift_x_tiny_negative {		left: -1em !important; }
+	.sc_shift_x_small {				left:  2em !important; }
+	.sc_shift_x_small_negative {	left: -2em !important; }
+	.sc_shift_x_medium {			left:  3em !important; }
+	.sc_shift_x_medium_negative {	left: -3em !important; }
+	.sc_shift_x_large {				left:  4em !important; }
+	.sc_shift_x_large_negative {	left: -4em !important; }
+
+	.sc_shift_y_tiny {				top:  1em !important; }
+	.sc_shift_y_tiny_negative {		top: -1em !important; }
+	.sc_shift_y_small {				top:  2em !important; }
+	.sc_shift_y_small_negative {	top: -2em !important; }
+	.sc_shift_y_medium {			top:  3em !important; }
+	.sc_shift_y_medium_negative {	top: -3em !important; }
+	.sc_shift_y_large {				top:  4em !important; }
+	.sc_shift_y_large_negative {	top: -4em !important; }
+}
+
+@mixin sc--md() {
+	/* Shortcodes - Common styles */
+	.sc_item_title {
+		letter-spacing:1px;
+	}
+	.sc_item_descr {
+		max-width: none;
+	}
+
+	#trx_addons_post_details_popup {
+		width: 80%;
+	}
+}
+
+@mixin sc--sm() {
+    /* Shortcodes - Common styles */
+	.sc_item_title {
+		letter-spacing:0;
+	}
+	.sc_item_title + .sc_item_descr, .sc_item_subtitle + .sc_item_descr,
+	.sc_item_title + .sc_item_slider, .sc_item_subtitle + .sc_item_slider, .sc_item_descr + .sc_item_slider,
+	.sc_item_title + .sc_item_columns, .sc_item_subtitle + .sc_item_columns, .sc_item_descr + .sc_item_columns,
+	.sc_item_title + .sc_item_content, .sc_item_subtitle + .sc_item_content, .sc_item_descr + .sc_item_content {
+		margin-top: 1.5em;
+	}
+	.sc_item_title + .sc_item_button, .sc_item_title + .sc_item_button_image,
+	.sc_item_subtitle + .sc_item_button, .sc_item_subtitle + .sc_item_button_image,
+	.sc_item_descr + .sc_item_button, .sc_item_descr + .sc_item_button_image,
+	.sc_item_content + .sc_item_button, .sc_item_content + .sc_item_button_image,
+	.sc_item_slider + .sc_item_button, .sc_item_slider + .sc_item_button_image,
+	.sc_item_columns + .sc_item_button, .sc_item_columns + .sc_item_button_image {
+		margin-top: 1.5em;
+	}
+
+	.sc_item_title.sc_item_title_style_accent b {
+		font-size: 4em;
+		line-height:0.8em;
+	}
+
+	[class*="sc_shift_"] {
+		left: auto !important;
+		top: auto !important;
+	}
+}
+
+@mixin sc--xs() {
+    /* Shortcodes - Common styles */
+	#trx_addons_post_details_popup .post_details_page_content {
+		padding: 1em;
+	}
+	#trx_addons_post_details_popup .post_details_page_details {
+		padding: 0 1em;
+	}
+	#trx_addons_post_details_popup .post_details_page_button {
+		padding: 1em;
+	}
+	.trx_addons_post_details_popup_prev	{
+		left: -1.5em;
+	}
+	.trx_addons_post_details_popup_close,
+	.trx_addons_post_details_popup_next	{
+		right: -1.5em;
+	}
+	nav.sc_item_pagination_advanced_pages .nav-links {
+		max-width: 100%;
+	}
+	nav.sc_item_pagination .page-count {
+		display: block;
+		float: none;
+		line-height: 3em;
+		max-width: 100%;
+	}
+}

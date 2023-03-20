@@ -1,0 +1,62 @@
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@-webkit-keyframes smile-pulse {
+
+	from {
+		-webkit-transform: scale3d(1, 1, 1);
+		-moz-transform: scale3d(1, 1, 1);
+		-ms-transform: scale3d(1, 1, 1);
+		-o-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+
+
+	50% {
+		-webkit-transform: scale3d(1.05, 1.05, 1.05);
+		-moz-transform: scale3d(1.05, 1.05, 1.05);
+		-ms-transform: scale3d(1.05, 1.05, 1.05);
+		-o-transform: scale3d(1.05, 1.05, 1.05);
+		transform: scale3d(1.05, 1.05, 1.05);
+	}
+
+	to {
+		-webkit-transform: scale3d(1, 1, 1);
+		-moz-transform: scale3d(1, 1, 1);
+		-ms-transform: scale3d(1, 1, 1);
+		-o-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+@keyframes smile-pulse {
+
+	from {
+		-webkit-transform: scale3d(1, 1, 1);
+		-moz-transform: scale3d(1, 1, 1);
+		-ms-transform: scale3d(1, 1, 1);
+		-o-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+
+	50% {
+		-webkit-transform: scale3d(1.05, 1.05, 1.05);
+		-moz-transform: scale3d(1.05, 1.05, 1.05);
+		-ms-transform: scale3d(1.05, 1.05, 1.05);
+		-o-transform: scale3d(1.05, 1.05, 1.05);
+		transform: scale3d(1.05, 1.05, 1.05);
+	}
+
+	to {
+		-webkit-transform: scale3d(1, 1, 1);
+		-moz-transform: scale3d(1, 1, 1);
+		-ms-transform: scale3d(1, 1, 1);
+		-o-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+.smile-pulse {
+	-webkit-animation-name: smile-pulse;
+	animation-name: smile-pulse;
+	animation-name: smile-pulse;
+}

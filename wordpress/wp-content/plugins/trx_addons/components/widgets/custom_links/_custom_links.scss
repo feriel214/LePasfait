@@ -1,0 +1,33 @@
+/* Widget: Custom links */
+.widget_custom_links .custom_links_list {
+	padding-left: 0;
+}
+.widget_custom_links .custom_links_list_item.with_icon {
+	position: relative;
+	padding-left: 1.8em;
+}
+.widget_custom_links .custom_links_list_item:before {
+	display:none;
+}
+.widget_custom_links .custom_links_list_item_image {
+	@include abs-lt(0, 3px);
+	@include box(1.25em, auto);
+	max-width: 100%;
+}
+.widget_custom_links .custom_links_list_item_icon {
+	@include abs-lt;
+	@include box(1.5em, 1.5em);
+}
+.widget_custom_links .custom_links_list_item_icon.sc_icon_type_svg svg,
+.widget_custom_links .custom_links_list_item_icon.sc_icon_type_svg object {
+	@include box(1em, 1em);
+}
+.widget_custom_links .custom_links_list_item_description {
+	display: block;
+	font-size: 0.75em;
+	font-style: italic;
+	line-height: 1.7em;
+}
+.widget_custom_links .custom_links_list_item_button {
+	margin-top: 0.5em;
+}

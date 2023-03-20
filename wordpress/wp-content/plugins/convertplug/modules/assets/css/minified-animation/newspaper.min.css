@@ -1,0 +1,1 @@
+@-webkit-keyframes smile-newsPaper{from{-webkit-transform:scale(0) rotate(720deg);opacity:0}60%{-webkit-transform:scale(1) rotate(0);opacity:1}}@keyframes smile-newsPaper{from{transform:scale(0) rotate(720deg);opacity:0}60%{transform:scale(1) rotate(0);opacity:1}}.smile-newsPaper{-webkit-animation-name:smile-newspaper;animation-name:smile-newsPaper}

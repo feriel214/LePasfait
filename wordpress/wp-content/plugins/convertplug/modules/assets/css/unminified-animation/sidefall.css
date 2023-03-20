@@ -1,0 +1,34 @@
+@-webkit-keyframes smile-sideFall {
+
+	from {
+		-webkit-transform: translate(30%) translateZ(600px) rotate(10deg);
+		opacity: 0;
+	}
+
+	60% {
+		-webkit-transform: translate(0%) translateZ(0) rotate(0deg);
+		opacity: 1;
+	}
+}
+
+@keyframes smile-sideFall {
+
+	from {
+		transform: translate(30%) translateZ(600px) rotate(10deg);
+		opacity: 0;
+	}
+
+	60% {
+		transform: translate(0%) translateZ(0) rotate(0deg);
+		opacity: 1;
+	}
+}
+
+.smile-sideFall {
+	-webkit-animation-name: smile-sidefall;
+	animation-name: smile-sideFall;
+	-webkit-perspective: 1300px;
+	perspective: 1300px;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
