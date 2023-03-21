@@ -1,5 +1,5 @@
 # Lepasfait Showcase Website
-This is a showcase website entitled Lepasfait that I created using WordPress and the Avada template. The website was designed to meet the specific needs of my client 
+This is a showcase website entitled Lepasfait that I created using WordPress and the Avada template. The website was designed to meet the specific needs of the clients 
 and showcases their work and services in an appealing and professional manner.
 
 # Technologies Used
